@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35197EEE1E0BB9C200C8DB04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35197EED1E0BB9C200C8DB04 /* AppDelegate.m */; };
+		35197EF11E0BB9C200C8DB04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35197EF01E0BB9C200C8DB04 /* main.m */; };
+		35197EF31E0BB9C200C8DB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35197EF21E0BB9C200C8DB04 /* Assets.xcassets */; };
+		35197EF61E0BB9C200C8DB04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35197EF41E0BB9C200C8DB04 /* MainMenu.xib */; };
+		35197EFF1E0BBFCA00C8DB04 /* LYRadarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35197EFE1E0BBFCA00C8DB04 /* LYRadarIndicatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35197EE91E0BB9C200C8DB04 /* LYRadarAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYRadarAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35197EEC1E0BB9C200C8DB04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35197EED1E0BB9C200C8DB04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35197EF01E0BB9C200C8DB04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35197EF21E0BB9C200C8DB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35197EF51E0BB9C200C8DB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		35197EF71E0BB9C200C8DB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35197EFD1E0BBFCA00C8DB04 /* LYRadarIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRadarIndicatorView.h; sourceTree = "<group>"; };
+		35197EFE1E0BBFCA00C8DB04 /* LYRadarIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRadarIndicatorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35197EE61E0BB9C200C8DB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35197EE01E0BB9C200C8DB04 = {
+			isa = PBXGroup;
+			children = (
+				35197EEB1E0BB9C200C8DB04 /* LYRadarAnimationDemo */,
+				35197EEA1E0BB9C200C8DB04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35197EEA1E0BB9C200C8DB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35197EE91E0BB9C200C8DB04 /* LYRadarAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35197EEB1E0BB9C200C8DB04 /* LYRadarAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35197EEC1E0BB9C200C8DB04 /* AppDelegate.h */,
+				35197EED1E0BB9C200C8DB04 /* AppDelegate.m */,
+				35197EFD1E0BBFCA00C8DB04 /* LYRadarIndicatorView.h */,
+				35197EFE1E0BBFCA00C8DB04 /* LYRadarIndicatorView.m */,
+				35197EF21E0BB9C200C8DB04 /* Assets.xcassets */,
+				35197EF41E0BB9C200C8DB04 /* MainMenu.xib */,
+				35197EF71E0BB9C200C8DB04 /* Info.plist */,
+				35197EEF1E0BB9C200C8DB04 /* Supporting Files */,
+			);
+			path = LYRadarAnimationDemo;
+			sourceTree = "<group>";
+		};
+		35197EEF1E0BB9C200C8DB04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35197EF01E0BB9C200C8DB04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35197EE81E0BB9C200C8DB04 /* LYRadarAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35197EFA1E0BB9C200C8DB04 /* Build configuration list for PBXNativeTarget "LYRadarAnimationDemo" */;
+			buildPhases = (
+				35197EE51E0BB9C200C8DB04 /* Sources */,
+				35197EE61E0BB9C200C8DB04 /* Frameworks */,
+				35197EE71E0BB9C200C8DB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYRadarAnimationDemo;
+			productName = LYRadarAnimationDemo;
+			productReference = 35197EE91E0BB9C200C8DB04 /* LYRadarAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35197EE11E0BB9C200C8DB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LY;
+				TargetAttributes = {
+					35197EE81E0BB9C200C8DB04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 35197EE41E0BB9C200C8DB04 /* Build configuration list for PBXProject "LYRadarAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35197EE01E0BB9C200C8DB04;
+			productRefGroup = 35197EEA1E0BB9C200C8DB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35197EE81E0BB9C200C8DB04 /* LYRadarAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35197EE71E0BB9C200C8DB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35197EF31E0BB9C200C8DB04 /* Assets.xcassets in Resources */,
+				35197EF61E0BB9C200C8DB04 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35197EE51E0BB9C200C8DB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35197EF11E0BB9C200C8DB04 /* main.m in Sources */,
+				35197EFF1E0BBFCA00C8DB04 /* LYRadarIndicatorView.m in Sources */,
+				35197EEE1E0BB9C200C8DB04 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35197EF41E0BB9C200C8DB04 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35197EF51E0BB9C200C8DB04 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35197EF81E0BB9C200C8DB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35197EF91E0BB9C200C8DB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35197EFB1E0BB9C200C8DB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYRadarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LaoYue.LYRadarAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35197EFC1E0BB9C200C8DB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYRadarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LaoYue.LYRadarAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35197EE41E0BB9C200C8DB04 /* Build configuration list for PBXProject "LYRadarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35197EF81E0BB9C200C8DB04 /* Debug */,
+				35197EF91E0BB9C200C8DB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35197EFA1E0BB9C200C8DB04 /* Build configuration list for PBXNativeTarget "LYRadarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35197EFB1E0BB9C200C8DB04 /* Debug */,
+				35197EFC1E0BB9C200C8DB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35197EE11E0BB9C200C8DB04 /* Project object */;
+}
